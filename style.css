@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #9d8189;
+    background-color: #f7ede2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,11 +19,10 @@ body {
     max-width: 430px;
     min-width: 320px;
     margin: 0 auto;
-    background-color: #fff;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    border: 2px solid #000;
+    box-shadow: 0 8px 32px 0 rgba(13, 19, 33, 0.20), 0 1.5px 8px 0 rgba(255, 116, 43, 0.10);
+    border: 2px solid #0d1321;
 }
 
 .story-player {
