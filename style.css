@@ -23,6 +23,7 @@ body {
     overflow: hidden;
     box-shadow: 0 8px 32px 0 rgba(13, 19, 33, 0.20), 0 1.5px 8px 0 rgba(255, 116, 43, 0.10);
     border: 2px solid #0d1321;
+    background: linear-gradient(180deg, #ffffff 0%, #faf8f5 45%, #f7ede2 100%);
 }
 
 .stories-list {
