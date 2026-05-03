@@ -5,15 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StoryLoop</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/46763c8d0e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main class="main-screen">
         <div class="story-player">
             <img class="story-img" />
           
+            <div class="story-header">
+              <img class="profile-pic" />
+              <span class="username"></span>
+              <span class="time"></span>
+            </div>
+
+            <div class="story-footer">
+                <div class="reply-box">Reply to story...</div>
+            
+                <div class="actions">
+                  <span class="icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </span>
+                  <span class="icon">
+                    <i class="fa-regular fa-paper-plane"></i>
+                  </span>
+                </div>
+            </div>
+          
             <div class="nav left"></div>
             <div class="nav right"></div>
-          </div>
+        </div>
     </main>
     <script type="module" src="script.js"></script>
 </body>
